@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:background="@drawable/edtbg"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Student Name"
+            android:textColorHint="@color/colorPrimary"
+            android:textAlignment="center"/>
+        <EditText
+            android:background="@drawable/edtbg"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Student Phone"
+            android:textColorHint="@color/colorPrimary"
+            android:textAlignment="center"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:backgroundTint="@color/greenColor"
+                android:background="@drawable/edtbg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="30dp"
+                android:layout_weight="1"
+                android:text="Save"
+                android:textColor="@color/white"/>
+            <Button
+                android:backgroundTint="@color/colorAccent"
+                android:layout_weight="1"
+                android:background="@drawable/edtbg"
+                android:layout_margin="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Cancel"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/closeicon"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginRight="320dp"/>
+
+
+
+
+</LinearLayout>
